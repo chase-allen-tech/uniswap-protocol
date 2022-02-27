@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Averta&display=swap');
+
+iframe {
+  display: none;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+.bg-yell {
+  background-color: #FFE8DB;
+}
+
+.size-32 {
+  width: 32px;
+  height: 32px;
+}
+
+.size-36 {
+  width: 36px;
+  height: 36px;
+}
+
+.color-line {
+  color: #C7AC9D;
+}
+
+.color-icon {
+  color: #AAA4A4;
+}
+
+.rounded-20 {
+  border-radius: 20px;
+}
+
+.rounded-12 {
+  border-radius: 12px;
+}
+
+.bg-card {
+  background-color: #F5F2F2;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.py-10x {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.px-12x {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.title {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #3D2E2E;
+}
+
+.subtitle {
+  font-family: "Averta CY";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3D2E2E;
+  opacity: 0.5;
+}
+
+.text-balance {
+  font-family: "Averta CY";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3D2E2E;
+}
+
+.text-token {
+  font-family: "Averta CY";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3D2E2E;
+}
+
+.input-field {
+  width: 225px;
+  height: 36px;
+
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.btn-connect {
+  height: 56px;
+  background: #8CCBD1;
+  border-radius: 12px;
+}
+
+.btn-text {
+  font-family: Averta CY;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 160%;
+
+  /* or 22px */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.hover-op:hover {
+  opacity: 0.8;
+}
+
+.btn-connecter {
+  width: 220px;
+  height: 56px;
+  left: 32px;
+  top: 22px;
+  background: #FFE8DB;
+  border-radius: 8px;
+}
+
+.p-connecter {
+  padding: 22px 32px;
+}
+
+.p-metamask {
+  padding: 10px 16px;
+}
+
+.text-wallet {
+  font-family: Averta CY;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.text-address {
+  font-family: Averta CY;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+}
