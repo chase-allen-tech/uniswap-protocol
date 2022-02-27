@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
-import Connecter from './components/Connecter';
 import Swap from './components/Swap';
+import WalletConnect from './components/WalletConnect';
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App w-100 d-flex flex-column justify-content-center align-items-center py-5">
-      <Connecter setConnected={setConnected} />
+      <WalletConnect setConnected={setConnected} />
 
       <div className='mt-3'>
         <Swap />
